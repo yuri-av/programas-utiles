@@ -1,14 +1,3 @@
-/*
-Además, debe crear un archivo binario llamado cajeros.dat que almacene un listado de cajeros en la estructura “cajero” con los siguientes campos:
-Cada campo posee las siguientes características:
-cajero: Número identificador del cajero (un entero).
-operacion: Tipo de operación realizada, que puede ser 1 (depósito) o 2 (extracción).
-monto: Valor de la transacción en pesos (un número entero).
-
-
-3. Eliminar la cantidad de movimientos del último cajero.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -141,4 +130,5 @@ int main()
     totales_modificacion(archivo_m, archivo_b);
     eliminar_mov(archivo_b);
     return 0;
+
 }
